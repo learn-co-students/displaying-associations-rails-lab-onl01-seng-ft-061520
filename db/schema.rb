@@ -24,5 +24,4 @@ ActiveRecord::Schema.define(version: 20180913134502) do
     t.datetime "updated_at", null: false
     t.integer  "artist_id"
   end
-
 end

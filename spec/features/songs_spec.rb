@@ -7,6 +7,7 @@ describe 'songs', type: :feature do
   end
 
   it "index page lists songs in 'Artist Name - Song Title' format" do
+    
     visit songs_path
     expect(page.status_code).to eq(200)
     expect(page).to have_link('Daft Punk - The Grid', href: song_path(@song))
